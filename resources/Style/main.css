@@ -12,6 +12,18 @@ Variables
 */
 
 :root {
+  /* CSS HSL */
+  --baltic-blue: hsla(202, 59%, 35%, 1);
+  --charcoal-blue: hsla(221, 13%, 33%, 1);
+  --steel-azure: hsla(218, 62%, 33%, 1);
+  --snow: hsla(340, 100%, 99%, 1);
+  --white: hsla(0, 0%, 99%, 1);
+  /* CSS Hex */
+  --baltic-blue: #25688eff;
+  --charcoal-blue: #49505fff;
+  --steel-azure: #20468aff;
+  --snow: #fffcfdff;
+  --white: #fcfcfcff;
   /* dark shades of primary color*/
   --clr-primary-1: hsl(184, 91%, 17%);
   --clr-primary-2: hsl(185, 84%, 25%);
