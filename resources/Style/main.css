@@ -3,7 +3,7 @@
 Fonts
 ===============
 */
-@import url("https://fonts.googleapis.com/css?family=Lato:400,700&display=swap");
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700&display=swap');
 
 /*
 =============== 
@@ -38,7 +38,7 @@ Variables
   --clr-grey-9: hsl(212, 33%, 89%);
   --clr-grey-10: hsl(210, 36%, 96%);
   --clr-white: #fff;
-  --ff-primary: "Lato", sans-serif;
+  --ff-primary: 'Lato', sans-serif;
   --transition: all 0.3s linear;
   --spacing: 0.25rem;
   --radius: 0.5rem;
@@ -344,8 +344,9 @@ Hero
 
 @media screen and (min-width: 768px) {
   .hero {
-    background: linear-gradient(rgba(44, 174, 186, 0.7), rgba(0, 0, 0, 0.7)),
-      url(../images/main.jpeg) center/cover no-repeat;
+    background:
+      linear-gradient(rgba(44, 174, 186, 0.7), rgba(0, 0, 0, 0.7)),
+      url(../imgs/Hero.jpg) center/cover no-repeat;
   }
 
   .hero-banner {
@@ -356,4 +357,50 @@ Hero
     max-width: 45rem;
   }
 }
+
 /*
+=============== 
+About
+===============
+*/
+/* section add to globals */
+
+/* title add to globals */
+/* section center add to globals */
+.about-img,
+.about-info {
+  margin-bottom: 2rem;
+}
+
+@media screen and (min-width: 992px) {
+  .about-center {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  .about-img,
+  .about-info {
+    flex: 0 0 calc(50% - 2rem);
+    margin-bottom: 0;
+    align-self: center;
+  }
+}
+
+@media screen and (min-width: 1172px) {
+  .about-img {
+    position: relative;
+  }
+
+  .about-img::before {
+    content: '';
+    position: absolute;
+    top: -1.5rem;
+    left: -1.5rem;
+    border: 0.5rem solid var(--clr-primary-5);
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+  }
+}
