@@ -489,3 +489,7 @@ Services
     margin-bottom: 0.5rem;
   }
 }
+
+.contact {
+  background-color: var(--clr-grey-10);
+}
