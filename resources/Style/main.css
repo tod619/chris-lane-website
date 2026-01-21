@@ -200,6 +200,11 @@ Navbar
   z-index: 1000;
 }
 
+.nav-logo {
+  width: 92px;
+  height: 53px;
+}
+
 .nav-icons {
   display: none;
 }
