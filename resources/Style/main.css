@@ -11,6 +11,8 @@ Variables
 ===============
 */
 
+/* linear-gradient(90deg, #0700b8 0%, #00ff88 100%) */
+
 :root {
   /* CSS HSL */
   --baltic-blue: hsla(202, 59%, 35%, 1);
