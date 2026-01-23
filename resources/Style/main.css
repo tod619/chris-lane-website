@@ -369,7 +369,7 @@ Hero
       linear-gradient(
         180deg,
         rgba(32, 70, 128, 1) 10%,
-        rgba(32, 160, 124, 0.22) 90%
+        rgba(32, 160, 124, 0.22) 100%
       ),
       /* linear-gradient(rgba(44, 174, 186, 0.7), rgba(0, 0, 0, 0.7)), */
         url(../imgs/Hero.jpg) center/cover no-repeat;
